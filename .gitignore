@@ -3,3 +3,6 @@ secrets/*
 
 # But okay to include templates
 !secrets/*.template
+data/local/notes-00000.tsv
+*/.DS_Store
+.DS_Store
