@@ -1,0 +1,80 @@
+{
+  "version": "1",
+  "metadata": {
+    "marimo_version": "0.17.6"
+  },
+  "cells": [
+    {
+      "id": "Hbol",
+      "code_hash": "f1ab4803c60ee908f8c0e3366c54bf87",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "ViTP",
+      "code_hash": "2f5c75faaa032876ae3a93deb8d920f9",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stderr",
+          "text": "/var/folders/w8/nx_tjn7s2kn2tjs00896g3180000gn/T/marimo_52384/__marimo__cell_ViTP_.py:1: DtypeWarning: Columns (5,6,7) have mixed types. Specify dtype option on import or set low_memory=False.\n  df = pd.read_csv(\"data/cn_data/notes-00000.tsv\", sep='\\t')\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "uiAJ",
+      "code_hash": "8ceea61ac689c35a3b83000a298261a7",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/html": "<marimo-ui-element object-id='uiAJ-0' random-id='ab7418fb-61a3-1a3e-c1e5-d9f40d3b37a0'><marimo-table data-initial-value='[]' data-label='null' data-data='&quot;[{&#92;&quot;noteId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1783179305159200982&#92;&quot;},&#92;&quot;noteAuthorParticipantId&#92;&quot;:&#92;&quot;C784F04F26E124F4D6EC01658D8F5565005D3092741FB3A6CED3F45089066236&#92;&quot;,&#92;&quot;createdAtMillis&#92;&quot;:1713978050878,&#92;&quot;tweetId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1783159712986382830&#92;&quot;},&#92;&quot;classification&#92;&quot;:&#92;&quot;MISINFORMED_OR_POTENTIALLY_MISLEADING&#92;&quot;,&#92;&quot;believable&#92;&quot;:null,&#92;&quot;harmful&#92;&quot;:null,&#92;&quot;validationDifficulty&#92;&quot;:null,&#92;&quot;misleadingOther&#92;&quot;:0,&#92;&quot;misleadingFactualError&#92;&quot;:0,&#92;&quot;misleadingManipulatedMedia&#92;&quot;:0,&#92;&quot;misleadingOutdatedInformation&#92;&quot;:0,&#92;&quot;misleadingMissingImportantContext&#92;&quot;:1,&#92;&quot;misleadingUnverifiedClaimAsFact&#92;&quot;:0,&#92;&quot;misleadingSatire&#92;&quot;:0,&#92;&quot;notMisleadingOther&#92;&quot;:0,&#92;&quot;notMisleadingFactuallyCorrect&#92;&quot;:0,&#92;&quot;notMisleadingOutdatedButNotWhenWritten&#92;&quot;:0,&#92;&quot;notMisleadingClearlySatire&#92;&quot;:0,&#92;&quot;notMisleadingPersonalOpinion&#92;&quot;:0,&#92;&quot;trustworthySources&#92;&quot;:1,&#92;&quot;summary&#92;&quot;:&#92;&quot;The House failed to pass a border protection law that was designed to go along with these other bills.  It was intentionally set with a higher 2/3rds threshold requirement and did not pass even though it had a majority.       https://sourcenm.com/2024/04/22/u-s-house-votes-down-border-bill-favored-by-conservatives/    &#92;&quot;,&#92;&quot;isMediaNote&#92;&quot;:0,&#92;&quot;isCollaborativeNote&#92;&quot;:0},{&#92;&quot;noteId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1783181538789605871&#92;&quot;},&#92;&quot;noteAuthorParticipantId&#92;&quot;:&#92;&quot;C784F04F26E124F4D6EC01658D8F5565005D3092741FB3A6CED3F45089066236&#92;&quot;,&#92;&quot;createdAtMillis&#92;&quot;:1713978583415,&#92;&quot;tweetId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1783171851818021181&#92;&quot;},&#92;&quot;classification&#92;&quot;:&#92;&quot;MISINFORMED_OR_POTENTIALLY_MISLEADING&#92;&quot;,&#92;&quot;believable&#92;&quot;:null,&#92;&quot;harmful&#92;&quot;:null,&#92;&quot;validationDifficulty&#92;&quot;:null,&#92;&quot;misleadingOther&#92;&quot;:0,&#92;&quot;misleadingFactualError&#92;&quot;:1,&#92;&quot;misleadingManipulatedMedia&#92;&quot;:0,&#92;&quot;misleadingOutdatedInformation&#92;&quot;:0,&#92;&quot;misleadingMissingImportantContext&#92;&quot;:0,&#92;&quot;misleadingUnverifiedClaimAsFact&#92;&quot;:1,&#92;&quot;misleadingSatire&#92;&quot;:0,&#92;&quot;notMisleadingOther&#92;&quot;:0,&#92;&quot;notMisleadingFactuallyCorrect&#92;&quot;:0,&#92;&quot;notMisleadingOutdatedButNotWhenWritten&#92;&quot;:0,&#92;&quot;notMisleadingClearlySatire&#92;&quot;:0,&#92;&quot;notMisleadingPersonalOpinion&#92;&quot;:0,&#92;&quot;trustworthySources&#92;&quot;:1,&#92;&quot;summary&#92;&quot;:&#92;&quot;The United States has 50 States     https://data.census.gov/all/profiles?q=All%20States%20within%20United%20States,%20Puerto%20Rico,%20and%20the%20Island%20Areas%20South%20American%20Indian&amp;amp;g=010XX00US&#92;&quot;,&#92;&quot;isMediaNote&#92;&quot;:0,&#92;&quot;isCollaborativeNote&#92;&quot;:0},{&#92;&quot;noteId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1783182562279494134&#92;&quot;},&#92;&quot;noteAuthorParticipantId&#92;&quot;:&#92;&quot;C784F04F26E124F4D6EC01658D8F5565005D3092741FB3A6CED3F45089066236&#92;&quot;,&#92;&quot;createdAtMillis&#92;&quot;:1713978827435,&#92;&quot;tweetId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1783154445682979015&#92;&quot;},&#92;&quot;classification&#92;&quot;:&#92;&quot;MISINFORMED_OR_POTENTIALLY_MISLEADING&#92;&quot;,&#92;&quot;believable&#92;&quot;:null,&#92;&quot;harmful&#92;&quot;:null,&#92;&quot;validationDifficulty&#92;&quot;:null,&#92;&quot;misleadingOther&#92;&quot;:0,&#92;&quot;misleadingFactualError&#92;&quot;:0,&#92;&quot;misleadingManipulatedMedia&#92;&quot;:0,&#92;&quot;misleadingOutdatedInformation&#92;&quot;:0,&#92;&quot;misleadingMissingImportantContext&#92;&quot;:1,&#92;&quot;misleadingUnverifiedClaimAsFact&#92;&quot;:0,&#92;&quot;misleadingSatire&#92;&quot;:0,&#92;&quot;notMisleadingOther&#92;&quot;:0,&#92;&quot;notMisleadingFactuallyCorrect&#92;&quot;:0,&#92;&quot;notMisleadingOutdatedButNotWhenWritten&#92;&quot;:0,&#92;&quot;notMisleadingClearlySatire&#92;&quot;:0,&#92;&quot;notMisleadingPersonalOpinion&#92;&quot;:0,&#92;&quot;trustworthySources&#92;&quot;:1,&#92;&quot;summary&#92;&quot;:&#92;&quot;TikTok only mentions &#92;&#92;u201cban&#92;&#92;u201d and chooses to ignore the the divestment portion of the bill     https://www.reuters.com/world/us/senators-hope-tiktok-will-remain-business-us-under-new-owner-2024-04-23/&#92;&quot;,&#92;&quot;isMediaNote&#92;&quot;:0,&#92;&quot;isCollaborativeNote&#92;&quot;:0},{&#92;&quot;noteId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1883711635770196070&#92;&quot;},&#92;&quot;noteAuthorParticipantId&#92;&quot;:&#92;&quot;C784F04F26E124F4D6EC01658D8F5565005D3092741FB3A6CED3F45089066236&#92;&quot;,&#92;&quot;createdAtMillis&#92;&quot;:1737946826294,&#92;&quot;tweetId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1883619411774345444&#92;&quot;},&#92;&quot;classification&#92;&quot;:&#92;&quot;MISINFORMED_OR_POTENTIALLY_MISLEADING&#92;&quot;,&#92;&quot;believable&#92;&quot;:null,&#92;&quot;harmful&#92;&quot;:null,&#92;&quot;validationDifficulty&#92;&quot;:null,&#92;&quot;misleadingOther&#92;&quot;:1,&#92;&quot;misleadingFactualError&#92;&quot;:0,&#92;&quot;misleadingManipulatedMedia&#92;&quot;:0,&#92;&quot;misleadingOutdatedInformation&#92;&quot;:0,&#92;&quot;misleadingMissingImportantContext&#92;&quot;:0,&#92;&quot;misleadingUnverifiedClaimAsFact&#92;&quot;:0,&#92;&quot;misleadingSatire&#92;&quot;:0,&#92;&quot;notMisleadingOther&#92;&quot;:0,&#92;&quot;notMisleadingFactuallyCorrect&#92;&quot;:0,&#92;&quot;notMisleadingOutdatedButNotWhenWritten&#92;&quot;:0,&#92;&quot;notMisleadingClearlySatire&#92;&quot;:0,&#92;&quot;notMisleadingPersonalOpinion&#92;&quot;:0,&#92;&quot;trustworthySources&#92;&quot;:1,&#92;&quot;summary&#92;&quot;:&#92;&quot;This could be considered a threat     https://www.aol.com/finance/d-c-federal-court-judges-104757296.htmlIf &#92;&quot;,&#92;&quot;isMediaNote&#92;&quot;:0,&#92;&quot;isCollaborativeNote&#92;&quot;:0},{&#92;&quot;noteId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1537142913737428992&#92;&quot;},&#92;&quot;noteAuthorParticipantId&#92;&quot;:&#92;&quot;5684B38EB58FD8BE75ABA37F0BE040EC70380B002ADF9DBDE2415CB32782EAEE&#92;&quot;,&#92;&quot;createdAtMillis&#92;&quot;:1655318404027,&#92;&quot;tweetId&#92;&quot;:{&#92;&quot;&#36;bigint&#92;&quot;:&#92;&quot;1377030478167937024&#92;&quot;},&#92;&quot;classification&#92;&quot;:&#92;&quot;MISINFORMED_OR_POTENTIALLY_MISLEADING&#92;&quot;,&#92;&quot;believable&#92;&quot;:&#92;&quot;BELIEVABLE_BY_MANY&#92;&quot;,&#92;&quot;harmful&#92;&quot;:&#92;&quot;CONSIDERABLE_HARM&#92;&quot;,&#92;&quot;validationDifficulty&#92;&quot;:&#92;&quot;EASY&#92;&quot;,&#92;&quot;misleadingOther&#92;&quot;:0,&#92;&quot;misleadingFactualError&#92;&quot;:1,&#92;&quot;misleadingManipulatedMedia&#92;&quot;:0,&#92;&quot;misleadingOutdatedInformation&#92;&quot;:0,&#92;&quot;misleadingMissingImportantContext&#92;&quot;:1,&#92;&quot;misleadingUnverifiedClaimAsFact&#92;&quot;:1,&#92;&quot;misleadingSatire&#92;&quot;:0,&#92;&quot;notMisleadingOther&#92;&quot;:0,&#92;&quot;notMisleadingFactuallyCorrect&#92;&quot;:0,&#92;&quot;notMisleadingOutdatedButNotWhenWritten&#92;&quot;:0,&#92;&quot;notMisleadingClearlySatire&#92;&quot;:0,&#92;&quot;notMisleadingPersonalOpinion&#92;&quot;:0,&#92;&quot;trustworthySources&#92;&quot;:1,&#92;&quot;summary&#92;&quot;:&#92;&quot;Forbes has a good rundown of the investigation and the Washington Post has a fuller picture of where the investigation is headed.     Gaetz seems to be deliberately misleading his readers about the timeline of any investigation with this tweet.    https://www.forbes.com/sites/rachelsandler/2021/03/30/gop-rep-matt-gaetz-reportedly-under-investigation-over-relationship-with-17-year-old-girl/?sh=7da3be1a23f4    https://www.washingtonpost.com/politics/2022/01/27/sex-trafficking-allegations-matt-gaetz/  &#92;&quot;,&#92;&quot;isMediaNote&#92;&quot;:0,&#92;&quot;isCollaborativeNote&#92;&quot;:0}]&quot;' data-total-rows='5' data-total-columns='24' data-max-columns='50' data-banner-text='&quot;&quot;' data-pagination='true' data-page-size='10' data-field-types='[[&quot;noteId&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;noteAuthorParticipantId&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;createdAtMillis&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;tweetId&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;classification&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;believable&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;harmful&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;validationDifficulty&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;misleadingOther&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;misleadingFactualError&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;misleadingManipulatedMedia&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;misleadingOutdatedInformation&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;misleadingMissingImportantContext&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;misleadingUnverifiedClaimAsFact&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;misleadingSatire&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;notMisleadingOther&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;notMisleadingFactuallyCorrect&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;notMisleadingOutdatedButNotWhenWritten&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;notMisleadingClearlySatire&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;notMisleadingPersonalOpinion&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;trustworthySources&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;summary&quot;,[&quot;string&quot;,&quot;object&quot;]],[&quot;isMediaNote&quot;,[&quot;integer&quot;,&quot;int64&quot;]],[&quot;isCollaborativeNote&quot;,[&quot;integer&quot;,&quot;int64&quot;]]]' data-show-filters='true' data-show-download='true' data-show-column-summaries='false' data-show-data-types='true' data-show-page-size-selector='false' data-show-column-explorer='true' data-show-chart-builder='true' data-row-headers='[]' data-has-stable-row-id='false' data-lazy='false' data-preload='false'></marimo-table></marimo-ui-element>"
+          }
+        }
+      ],
+      "console": []
+    },
+    {
+      "id": "surt",
+      "code_hash": "6b400a084dab666e4ed7486a90f1b19f",
+      "outputs": [
+        {
+          "type": "data",
+          "data": {
+            "text/plain": ""
+          }
+        }
+      ],
+      "console": [
+        {
+          "type": "stream",
+          "name": "stdout",
+          "text": "Total number of rows: 2365553\n",
+          "mimetype": "text/plain"
+        }
+      ]
+    },
+    {
+      "id": "wPYm",
+      "code_hash": null,
+      "outputs": [],
+      "console": []
+    }
+  ]
+}
