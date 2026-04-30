@@ -37,7 +37,4 @@ dataset 2.24/
 data/renault_partisanship_labels.csv
 data/2026-02-27-note_status_records.csv
 **/data - 3.17/
-data/Archive.zip
-data/Archive/
-data/2026-04-14-mosleh-partisanship/
-data/tweet_author_ids.csv
+data/
